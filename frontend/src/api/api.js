@@ -1,6 +1,6 @@
 // Central API fetch wrapper — auto-attaches Bearer token from localStorage
 
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://skillproof-9ch1.onrender.com/api";
 
 function getToken() {
   return localStorage.getItem("accessToken") || "";
